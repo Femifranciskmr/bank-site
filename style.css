@@ -1,0 +1,139 @@
+/* index page style */
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;justify-content: space-between;align-items: center;
+}
+.headleft{
+    display: flex;padding-left: 20px;
+}
+.headleft img{
+    background-color: transparent; 
+    width:40px;
+    height:40px;
+}
+.headleft h5{
+  margin-left: 10px;
+}
+.headright{
+    display: flex;justify-content: space-around;align-items: center;padding-right: 20px;
+}
+.headright span{
+    display: flex;padding: 10px;align-items: center;
+}
+.headright span i{
+    margin-right: 3px;
+}
+.banner{
+    display: flex;justify-content: center;align-items: center;padding: 30px;
+}
+.bannerpara{
+    margin-left: 40px;margin-right: 40px;
+}
+.bannerpara h1{
+    text-align: center;color: blue;margin-bottom: 20px;
+}
+.bannerpara p{
+    text-align: justify;
+}
+.bannersec2{
+    display: flex;justify-content: center;align-items: center;padding: 30px;
+}
+.bannersec2 .imgsec{
+    margin-left: 40px;margin-right: 60px;
+}
+.bannerpara2{
+    margin-left: 40px;margin-right: 60px;
+}
+.bannerpara2 h1{
+    text-align: center;color: blue;margin-bottom: 20px;
+}
+.bannerpara2 p{
+    text-align: justify;
+}
+
+
+/* login page style */
+.cardlogin{
+   background-color: blanchedalmond;
+  
+}
+.cardsec{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardinputgroup input{
+    border-style: inset;
+}
+.cardlogin h3{
+    text-align: center;
+    color: blue;
+}
+.cardlogin img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 33%;
+}
+.cardinputgroup a{
+    text-decoration: none;
+   margin-left: 40%;
+}
+
+
+/* home page style */
+
+.homenav{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+   background-color: blue;
+   
+}
+.homenav a{
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.homebanner{
+
+   top: 10%;
+   position: absolute;
+   left: 40%;
+}
+.homebanner h2{
+    font-size: 45px;
+}
+.homebanner p{
+    font-size: 30px;
+}
+.homecardsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+.homecardsec .homecard {
+   
+    width: 500px;
+    margin-right: 15px;
+    padding: 20px;
+
+}
+.homecardsec a{
+    margin: 10px;
+}
+.homecardsec h5{
+    margin: 10px;
+}
