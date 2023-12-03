@@ -43,3 +43,7 @@ if(withdrawAmount.amount > total){
 function displayBalance(){
   result.innerHTML =`Account balance : ${total}`
 }
+
+function logout(){
+  window.location="index.html"
+}

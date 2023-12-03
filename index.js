@@ -4,3 +4,7 @@ function loginfu(){
 function registerUserBtn() {
     window.location = "signin.html";
   }
+
+  function getstart(){
+    window.location='login.html'
+}

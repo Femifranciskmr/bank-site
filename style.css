@@ -137,3 +137,31 @@
 .homecardsec h5{
     margin: 10px;
 }
+
+
+@media screen and (max-width:500px) {
+    .homecardsec{
+        display: block;
+        justify-content: start;
+        height: 100%;
+        width: 300px;
+    }
+    .homebanner h2{
+        font-size: 15px;
+    }
+    .homebanner p{
+        font-size: 20px;
+    }
+    .homecardsec .homecard {
+   
+        width: 300px;
+        margin-right: 15px;
+        padding: 15px;
+    
+    }
+    .homebanner{
+        top: 5%;
+        position: absolute;
+        left: 20px;
+     }
+}
